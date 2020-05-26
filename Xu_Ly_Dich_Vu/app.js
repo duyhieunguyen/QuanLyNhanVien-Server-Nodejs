@@ -1,6 +1,6 @@
 var http = require("http");
 var database = require("./XU_LY_DU_LIEU/firebase");
-var port = normalizePort(process.env.Port || 3000);
+var port = normalizePort(process.env.PORT || 3000);
 var xu_ly_tham_so = require("querystring");
 //Random-number xác thực email
 var rn = require('random-number');
