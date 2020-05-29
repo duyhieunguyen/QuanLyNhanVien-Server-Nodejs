@@ -122,7 +122,7 @@ var server = http.createServer((yeu_cau, dap_ung) => {
             })
 
             if (kq == false) {
-                chuoi_kq = "loginfalse"
+                chuoi_kq = JSON.stringify("loginfalse")
             }
             dap_ung.end(chuoi_kq);
         } else if (ma_so_xu_ly == "LoginGoogle") {
