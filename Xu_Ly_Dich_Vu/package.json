@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "cryptr": "^6.0.2",
-    "firebase-admin": "^8.12.1",
+    "firebase-admin": "^11.4.1",
     "nodemailer": "^6.4.6",
     "random-number": "0.0.9"
   }
